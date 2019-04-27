@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\texture">
+      <UniqueIdentifier>{ec241a8a-c582-4f75-b5d7-dcb68aee3522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shader">
+      <UniqueIdentifier>{4ec261fd-4290-491c-910f-86dbcb42709f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelVertices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Readme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\debug_depth_quad.vs">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shader\shader.fs">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shader\shader.vs">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shader\debug_depth_quad.fs">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shader\directlightshader.fs">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shader\directlightshader.vs">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shader\pointlightshader.gs">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shader\pointlightshader.vs">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shader\pointlightshader.fs">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="texture\container.png">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="texture\container2_specular.png">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="texture\wood.png">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
